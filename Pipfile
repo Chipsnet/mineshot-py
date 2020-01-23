@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+watchdog = "*"
+pythonmagick = {path = "c:/Users/Minato86/Downloads/PythonMagick-0.9.19-cp37-cp37m-win32.whl"}
+pyinstaller = "*"
+pywin32 = "*"
+
+[requires]
+python_version = "3.7"
+
+[scripts]
+start = "python ./src/app.py"
