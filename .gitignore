@@ -1,2 +1,5 @@
-versions/
-dist/
+versions
+dist
+build
+.vscode
+*.spec
