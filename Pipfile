@@ -7,7 +7,7 @@ verify_ssl = true
 
 [packages]
 watchdog = "*"
-pythonmagick = {path = "c:/Users/Minato86/Downloads/PythonMagick-0.9.19-cp37-cp37m-win32.whl"}
+pythonmagick = {path = "./PythonMagick-0.9.19-cp37-cp37m-win_amd64.whl"}
 pyinstaller = "*"
 pywin32 = "*"
 
@@ -16,3 +16,4 @@ python_version = "3.7"
 
 [scripts]
 start = "python ./src/app.py"
+build = "pyinstaller ./src/app.py --onefile --noconsole --icon=icon.ico"
